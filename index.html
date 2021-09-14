@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
+    <!-- fontawsome cdn link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <!-- bootstrap css cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <!-- custom css link -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
+    <!-- --------------header section-------------- -->
     <header class="header">
         <div>
             <img class="header-profile-image" src="./images/dp-image-transparent.png" alt="">
@@ -19,6 +25,89 @@
         <h1>Rezwanul Islam Rifat</h1>
         <p>A Web Developer</p>
     </header>
-    
+
+    <!-- ----------------main section---------------  -->
+    <main>
+        <!-- navigation section -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Rezwan</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- intro section -->
+        <section class="intro-section container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/into-dp-image.jpg" class="img-75 img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="intro">
+                        <h2>Who am i?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam cumque, beatae
+                            consequuntur fugit praesentium sed provident molestiae placeat aliquam odio ex totam sunt.
+                            Nihil laboriosam eos totam sequi odit, placeat consectetur veritatis exercitationem
+                            quibusdam?</p>
+                    </div>
+                    <div class="progress-section">
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%">90</div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%">90</div>
+                        </div>
+                        <p>Bootstrap</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%">70</div>
+                        </div>
+                        <p>Tailwind</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 40%">40</div>
+                        </div>
+                        <p>javaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:70%">70</div>
+                        </div>
+                        <p>typeScript</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 30%">30</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
