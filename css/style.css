@@ -45,6 +45,13 @@
 /* main section  */
 
 /* navigation section  */
+.navbar-section {
+    position: sticky;
+    top: 0;
+}
+.navbar-brand img {
+    height: 25px;
+}
 .navbar .fa-bars {
     font-size: 28px;
 }
@@ -63,10 +70,8 @@
 .intro-section {
     margin-top: 5rem;
 }
-.intro-section img{
-    display: block;
-    margin: auto;
-    width: 23rem;
+.logo-text {
+    font-family: cursive;
 }
 .progress-section p {
     margin: 1rem 0 .25rem;
