@@ -165,6 +165,26 @@
     border-radius: 0 25px;
 }
 
+/* contact section  */
+.contact-section {
+    margin-top: 5rem;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(0,0,0,.8), rgba(0,0,0,.5)), url(/images/contact-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 3rem 0;
+}
+.contact-section .title::after {
+    background: #fff;
+}
+.contact i {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.contact h2 {
+    font-size: 1.5rem;
+}
+
 
 
 
