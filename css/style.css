@@ -28,6 +28,7 @@
     height: 100vh;
     background: linear-gradient(90deg, rgba(0,0,0,.8), rgba(0,0,0,.5)), url(/images/header-background.jpg);
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,7 +157,7 @@
     background-color: #f0f0f0;
     padding: 15px;
     border-radius: 25px 0;
-    transition: background .7s, color .7s, border-radius .7s;
+    transition: .7s;
     cursor: pointer;
 }
 .service:hover {
@@ -183,6 +184,24 @@
 }
 .contact h2 {
     font-size: 1.5rem;
+}
+.contact-button {
+    outline: none;
+    border: 2px solid;
+    border-radius: 25px;
+    background: transparent;
+    color: #fff;
+    padding: 10px 35px;
+    margin: 25px;
+    transition: .5s;
+}
+.contact-button:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+}
+.contact-button i {
+    margin-right: 5px;
 }
 
 
@@ -214,5 +233,16 @@
     /* service section  */
     .services-section .col-md-4 {
         margin-top: 2rem;
+    }
+
+    /* contact sction  */
+    .contact {
+        margin-top: 2rem;
+    }
+    .contact i {
+        margin-bottom: 10px;
+    }
+    .contact-button {
+        margin: 10px;
     }
   }

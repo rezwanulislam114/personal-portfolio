@@ -20,7 +20,7 @@
 
 <body>
     <!-- --------------header section-------------- -->
-    <header class="header">
+    <header class="header" id="home">
         <div>
             <img class="header-profile-image" src="./images/dp-image-transparent.png" alt="">
         </div>
@@ -42,19 +42,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Me</a>
+                                <a class="nav-link" href="#about">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Resume</a>
+                                <a class="nav-link" href="#resume">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@
         </section>
 
         <!-- intro section -->
-        <section class="intro-section">
+        <section class="intro-section" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -109,7 +109,7 @@
         </section>
 
         <!-- education and exparience section  -->
-        <section class="resume">
+        <section class="resume" id="resume">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -153,10 +153,10 @@
         </section>
 
         <!-- services section  -->
-        <section class="services-section">
+        <section class="services-section" id="services">
             <div class="container">
                 <h2 class="title">My Services</h2>
-                <p class="text-center w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam possimus tempore eum ex consequuntur</p>
+                <p class="text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam possimus tempore eum ex consequuntur</p>
                 <div class="row mt-5">
                     <div class="col-md-4">
                         <div class="service h-100">
@@ -181,10 +181,10 @@
         </section>
 
         <!-- contact section  -->
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
             <div class="container">
                 <h2 class="title">Contact Me</h2>
-                <p class="text-center mt-0 w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos omnis dolorum magni labore odio laudantium voluptas error reiciendis enim veritatis, odit facere facilis modi quos!</p>
+                <p class="text-center mt-0 w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos omnis dolorum magni labore odio laudantium voluptas error reiciendis enim veritatis, odit facere facilis modi quos!</p>
                 <div class="row mt-5">
                     <div class="col-md-4 text-center">
                         <div class="contact">
@@ -205,6 +205,12 @@
                             <h2>House: 46, Road: 3 <br> Promy Socity <br> 
                             Moynartek, Uttarkhan</h2>
                         </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="text-center">
+                        <button class="contact-button"><i class="fas fa-download"></i> Resume</button>
+                        <button class="contact-button"><i class="fas fa-rocket"></i> Hire Me</button>
                     </div>
                 </div>
             </div>
