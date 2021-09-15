@@ -48,6 +48,7 @@
 .navbar-section {
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 .navbar-brand img {
     height: 25px;
@@ -87,6 +88,8 @@
 /* resume section  */
 .resume {
     margin-top: 10rem;
+    background: #eeeeeed8;
+    padding: 3rem 0;
 }
 .life-time {
     position: relative;
@@ -103,32 +106,63 @@
 .life-time li {
     list-style: none;
     position: relative;
+    box-shadow: 2px 4px 20px #dadada;
+    border-radius: 5px;
+    background: #fff;
 }
 .life-time li::before {
     content: '';
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    background: #000000;
+    border: 3px solid;
+    background: #fff;
     position: absolute;
-    left: -36px;
+    left: -38px;
     top: 8px;
+    z-index: 1;
 }
 .life-time li h4{
     background: #000;
     color: #fff;
-    padding: 5px 15px;
+    padding: 5px 20px;
     font-size: 16px;
     border-radius: 3px;
+}
+.life-time li p {
+    padding: 5px 20px 10px;
 }
 .experience img {
     display: block;
     margin: auto;
-    width: 30rem;
+    width: 34rem;
 }
 .experience p {
     font-size: 18px;
     text-align: right;
+}
+
+/* services section  */
+.services-section {
+    margin-top: 5rem;
+}
+.services-section .title {
+    margin-bottom: 10px;
+}
+.services-section .title::after {
+    height: 0;
+}
+.service {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 25px 0;
+    transition: background .7s, color .7s, border-radius .7s;
+    cursor: pointer;
+}
+.service:hover {
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    border-radius: 0 25px;
 }
 
 
@@ -155,5 +189,10 @@
     }
     .resume .experience {
         margin-top: 3rem;
+    }
+
+    /* service section  */
+    .services-section .col-md-4 {
+        margin-top: 2rem;
     }
   }
